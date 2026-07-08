@@ -1,0 +1,55 @@
+name: Vorverkauf-Check
+
+on:
+  schedule:
+    # 3x täglich: 05:00, 11:00, 17:00 UTC = 7, 13, 19 Uhr MESZ (6, 12, 18 Uhr MEZ)
+    - cron: '0 5,11,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: presale-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vorverkauf prüfen
+        id: check
+        run: python3 check_presale.py
+
+      - name: Status committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/status.json docs/history.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Status-Update: Vorverkauf-Check $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "${GITHUB_REF_NAME}"
+          fi
+
+      - name: Benachrichtigung bei neuem Vorverkauf
+        if: steps.check.outputs.newly_detected != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MOVIES: ${{ steps.check.outputs.newly_detected }}
+        run: |
+          gh issue create \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "🎬 Vorverkauf gestartet: ${MOVIES}" \
+            --body "@emilalexanderreimer-eng Der Vorverkauf für **${MOVIES}** hat begonnen!
+
+          Jetzt Tickets sichern: https://www.helmstedterkinos.com/programm-01.php
+
+          Details und Vorstellungszeiten im Dashboard bzw. in \`docs/status.json\`.
+
+          _Automatisch erstellt vom Vorverkauf-Monitor._"
