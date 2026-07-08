@@ -1,4 +1,4 @@
-name: Vorverkauf-Check
+name: Vorverkauf-Check # Helmstedter Kinos
 
 on:
   schedule:
