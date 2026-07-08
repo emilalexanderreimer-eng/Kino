@@ -19,7 +19,7 @@ das Auslesen der Website selbst, deren Programm nur per JavaScript nachgeladen w
 |---|---|
 | `check_presale.py` | Fragt beide Kinos ab (120 Tage Vorschau) und erkennt die Filme |
 | `.github/workflows/presale-check.yml` | Führt den Check 3× täglich aus (GitHub Actions) |
-| `docs/index.html` | Web-Dashboard mit Live-Status |
+| `docs/index.html` | Web-Dashboard mit Live-Status (wird auf den Branch `gh-pages` veröffentlicht) |
 | `docs/status.json` / `docs/history.json` | Aktueller Status und Prüfverlauf |
 
 ## Benachrichtigung 🔔
@@ -28,12 +28,13 @@ Sobald ein Film erstmals buchbar ist, erstellt der Workflow automatisch ein
 **GitHub Issue** in diesem Repository (mit @-Erwähnung) – dadurch bekommst du
 eine E-Mail von GitHub. Jeder Film wird nur einmal gemeldet.
 
-## Einrichtung (einmalig)
+## Dashboard 📊
 
-1. **GitHub Pages aktivieren** für das Dashboard:
-   *Settings → Pages → Source: „Deploy from a branch“ → Branch auswählen, Ordner `/docs`*.
-   Das Dashboard ist dann unter `https://emilalexanderreimer-eng.github.io/Kino/` erreichbar.
-2. Fertig – der Zeitplan läuft automatisch auf dem Default-Branch.
+**https://emilalexanderreimer-eng.github.io/Kino/**
+
+GitHub Pages ist bereits eingerichtet (Quelle: Branch `gh-pages`). Der Monitor
+veröffentlicht das Dashboard nach jedem Prüflauf automatisch dorthin –
+es ist keine weitere Einrichtung nötig.
 
 ## Manuell prüfen
 

@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
 
 concurrency:
   group: presale-check
@@ -35,6 +36,17 @@ jobs:
             git commit -m "Status-Update: Vorverkauf-Check $(date -u +'%Y-%m-%d %H:%M') UTC"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "${GITHUB_REF_NAME}"
+          fi
+
+      - name: Dashboard auf GitHub Pages veröffentlichen (gh-pages)
+        run: |
+          docs_tree=$(git rev-parse HEAD:docs)
+          git fetch origin gh-pages --depth=1 2>/dev/null || true
+          if [ "$(git rev-parse origin/gh-pages^{tree} 2>/dev/null)" = "$docs_tree" ]; then
+            echo "Dashboard unverändert."
+          else
+            commit=$(git commit-tree "$docs_tree" -m "Dashboard-Update $(date -u +'%Y-%m-%d %H:%M') UTC")
+            git push origin "$commit:refs/heads/gh-pages" --force
           fi
 
       - name: Benachrichtigung bei neuem Vorverkauf
