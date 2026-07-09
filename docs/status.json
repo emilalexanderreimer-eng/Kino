@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-07-08T20:47:19+00:00",
+  "lastCheck": "2026-07-09T16:10:15+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 72,
+  "totalShows": 66,
   "movies": {
     "spiderman": {
       "label": "Spider-Man: Brand New Day",
