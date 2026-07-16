@@ -57,6 +57,7 @@ jobs:
         run: |
           gh issue create \
             --repo "${GITHUB_REPOSITORY}" \
+            --assignee "emilalexanderreimer-eng" \
             --title "🎬 Vorverkauf gestartet: ${MOVIES}" \
             --body "@emilalexanderreimer-eng Der Vorverkauf für **${MOVIES}** hat begonnen!
 
@@ -65,3 +66,16 @@ jobs:
           Details und Vorstellungszeiten im Dashboard bzw. in \`docs/status.json\`.
 
           _Automatisch erstellt vom Vorverkauf-Monitor._"
+
+      - name: Push-Benachrichtigung (ntfy.sh)
+        if: steps.check.outputs.newly_detected != ''
+        env:
+          MOVIES: ${{ steps.check.outputs.newly_detected }}
+        run: |
+          curl -s --max-time 20 \
+            -H "Title: Vorverkauf gestartet!" \
+            -H "Priority: high" \
+            -H "Tags: movie_camera,tada" \
+            -H "Click: https://www.helmstedterkinos.com/programm-01.php" \
+            -d "Der Vorverkauf für ${MOVIES} in den Helmstedter Kinos hat begonnen. Jetzt Tickets sichern!" \
+            "https://ntfy.sh/kino-helmstedt-vorverkauf-c95a8e5f" || echo "ntfy nicht erreichbar (nicht kritisch)"

@@ -24,9 +24,19 @@ das Auslesen der Website selbst, deren Programm nur per JavaScript nachgeladen w
 
 ## Benachrichtigung 🔔
 
-Sobald ein Film erstmals buchbar ist, erstellt der Workflow automatisch ein
-**GitHub Issue** in diesem Repository (mit @-Erwähnung) – dadurch bekommst du
-eine E-Mail von GitHub. Jeder Film wird nur einmal gemeldet.
+Sobald ein Film erstmals buchbar ist, meldet sich der Monitor über zwei Kanäle
+(jeder Film wird nur einmal gemeldet):
+
+1. **GitHub Issue** – wird erstellt, dir zugewiesen und erwähnt dich.
+   Damit daraus eine E-Mail wird, müssen unter
+   [github.com/settings/notifications](https://github.com/settings/notifications)
+   Benachrichtigungen für „Participating, @mentions and custom" per E-Mail
+   aktiviert sein (und die Mail darf nicht im Spam landen – Absender ist
+   `notifications@github.com`).
+2. **Push aufs Handy via [ntfy.sh](https://ntfy.sh)** – unabhängig von GitHub:
+   - ntfy-App installieren ([Android](https://play.google.com/store/apps/details?id=io.heckel.ntfy) / [iOS](https://apps.apple.com/us/app/ntfy/id1625396347))
+     oder einfach https://ntfy.sh/kino-helmstedt-vorverkauf-c95a8e5f im Browser öffnen
+   - das Thema **`kino-helmstedt-vorverkauf-c95a8e5f`** abonnieren – fertig.
 
 ## Dashboard 📊
 
