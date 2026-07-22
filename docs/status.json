@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-07-21T18:19:37+00:00",
+  "lastCheck": "2026-07-22T07:38:15+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 64,
+  "totalShows": 58,
   "movies": {
     "spiderman": {
       "label": "Spider-Man: Brand New Day",
@@ -29,16 +29,6 @@
       "found": true,
       "firstDetected": "2026-07-13T13:30:49+00:00",
       "shows": [
-        {
-          "title": "Die Odyssee",
-          "cinema": "Roxy Lichtspiele",
-          "timestamp": 1784644200
-        },
-        {
-          "title": "Die Odyssee",
-          "cinema": "Roxy Lichtspiele",
-          "timestamp": 1784655000
-        },
         {
           "title": "Die Odyssee",
           "cinema": "Roxy Lichtspiele",
