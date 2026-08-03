@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-08-03T08:36:22+00:00",
+  "lastCheck": "2026-08-03T13:44:53+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 26,
+  "totalShows": 74,
   "movies": {
     "spiderman": {
       "label": "Spider-Man: Brand New Day",
@@ -41,6 +41,86 @@
           "title": "Spider-Man: Brand New Day",
           "cinema": "Roxy Lichtspiele",
           "timestamp": 1785952800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786026600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786039200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786113000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786125600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786192200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786199400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786212000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786278600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786285800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786298400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786372200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786384800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786458600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786471200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786545000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786557600
         }
       ]
     },
@@ -58,6 +138,46 @@
           "title": "Die Odyssee",
           "cinema": "Camera am Holzberg",
           "timestamp": 1785951000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786037400
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786123800
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786199400
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786212000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786285800
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786298400
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786467600
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Camera am Holzberg",
+          "timestamp": 1786554000
         }
       ]
     }
