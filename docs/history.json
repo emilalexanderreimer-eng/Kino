@@ -600,5 +600,12 @@
     "totalShows": 51,
     "spiderman": true,
     "odyssey": true
+  },
+  {
+    "time": "2026-08-08T05:48:17+00:00",
+    "error": false,
+    "totalShows": 44,
+    "spiderman": true,
+    "odyssey": true
   }
 ]
