@@ -1,27 +1,17 @@
 {
-  "lastCheck": "2026-08-10T17:54:47+00:00",
+  "lastCheck": "2026-08-11T05:57:23+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 26,
+  "totalShows": 63,
   "movies": {
     "spiderman": {
       "label": "Spider-Man: Brand New Day",
       "found": true,
       "firstDetected": "2026-07-21T07:37:35+00:00",
       "shows": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "cinema": "Roxy Lichtspiele",
-          "timestamp": 1786372200
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "cinema": "Roxy Lichtspiele",
-          "timestamp": 1786384800
-        },
         {
           "title": "Spider-Man: Brand New Day",
           "cinema": "Roxy Lichtspiele",
@@ -41,6 +31,86 @@
           "title": "Spider-Man: Brand New Day",
           "cinema": "Roxy Lichtspiele",
           "timestamp": 1786557600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786631400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786644000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786717800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786730400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786795200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786804200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786816800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786881600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786890600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786903200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786978800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786989600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787065200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787076000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787151600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787162400
         }
       ]
     },
@@ -58,6 +128,41 @@
           "title": "Die Odyssee",
           "cinema": "Camera am Holzberg",
           "timestamp": 1786554000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786642200
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786728600
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786815000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786901400
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1786987800
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787074200
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787160600
         }
       ]
     }
