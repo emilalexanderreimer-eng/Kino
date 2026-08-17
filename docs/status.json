@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-08-17T05:40:20+00:00",
+  "lastCheck": "2026-08-17T11:32:48+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 32,
+  "totalShows": 69,
   "movies": {
     "spiderman": {
       "label": "Spider-Man: Brand New Day",
@@ -41,6 +41,76 @@
           "title": "Spider-Man: Brand New Day",
           "cinema": "Roxy Lichtspiele",
           "timestamp": 1787162400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787238000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787248800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787324400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787335200
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787410800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787421600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787495400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787508000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787583600
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787594400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787670000
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787680800
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787756400
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787767200
         }
       ]
     },
@@ -63,6 +133,41 @@
           "title": "Die Odyssee",
           "cinema": "Roxy Lichtspiele",
           "timestamp": 1787160600
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787247000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787333400
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787419800
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787506200
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787592600
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787679000
+        },
+        {
+          "title": "Die Odyssee",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1787765400
         }
       ]
     }
