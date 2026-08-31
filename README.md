@@ -4,8 +4,8 @@
 Vorverkauf für diese Filme in den Helmstedter Kinos (Roxy Lichtspiele & Camera am
 Holzberg) begonnen hat:
 
-- **Spider-Man: Brand New Day**
-- **The Odyssey (Die Odyssee)**
+- **Avengers: Endgame Encore**
+- **Avengers: Doomsday**
 
 ## Wie es funktioniert
 

@@ -37,33 +37,24 @@ def normalize(title: str) -> str:
     return " ".join(t.split())
 
 
-def match_spiderman(t: str) -> bool:
-    return ("spider man" in t or "spiderman" in t) and "brand new day" in t
+def match_endgame_encore(t: str) -> bool:
+    return "avengers" in t and "endgame" in t
 
 
-def match_spiderman_loose(t: str) -> bool:
-    # Fallback: jeder neue Spider-Man-Titel zählt, falls das Kino den
-    # Untertitel anders schreibt.
-    return "spider man" in t or "spiderman" in t
-
-
-def match_odyssey(t: str) -> bool:
-    if "odyssee" not in t and "odyssey" not in t:
-        return False
-    # "2001: Odyssee im Weltraum" (Best-of-Cinema-Klassiker) nicht melden
-    return not any(x in t for x in ("2001", "weltraum", "space"))
+def match_doomsday(t: str) -> bool:
+    return "avengers" in t and "doomsday" in t
 
 
 MOVIES = [
     {
-        "key": "spiderman",
-        "label": "Spider-Man: Brand New Day",
-        "matchers": [match_spiderman, match_spiderman_loose],
+        "key": "endgame_encore",
+        "label": "Avengers: Endgame Encore",
+        "matchers": [match_endgame_encore],
     },
     {
-        "key": "odyssey",
-        "label": "The Odyssey (Die Odyssee)",
-        "matchers": [match_odyssey],
+        "key": "doomsday",
+        "label": "Avengers: Doomsday",
+        "matchers": [match_doomsday],
     },
 ]
 
