@@ -1,17 +1,48 @@
 {
-  "lastCheck": "2026-09-02T09:26:03+00:00",
+  "lastCheck": "2026-09-02T15:02:19+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 79,
+  "totalShows": 85,
   "movies": {
     "endgame_encore": {
       "label": "Avengers: Endgame Encore",
-      "found": false,
-      "firstDetected": null,
-      "shows": []
+      "found": true,
+      "firstDetected": "2026-09-02T15:02:19+00:00",
+      "shows": [
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790357400
+        },
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790443800
+        },
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790530200
+        },
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790616600
+        },
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790703000
+        },
+        {
+          "title": "Avengers: Endgame Extended",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1790789400
+        }
+      ]
     },
     "doomsday": {
       "label": "Avengers: Doomsday",
