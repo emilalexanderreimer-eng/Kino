@@ -1104,5 +1104,12 @@
     "totalShows": 83,
     "endgame_encore": false,
     "doomsday": false
+  },
+  {
+    "time": "2026-09-02T09:26:03+00:00",
+    "error": false,
+    "totalShows": 79,
+    "endgame_encore": false,
+    "doomsday": false
   }
 ]
