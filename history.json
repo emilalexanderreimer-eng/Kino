@@ -1,0 +1,1192 @@
+[
+  {
+    "time": "2026-07-08T11:43:46+00:00",
+    "error": false,
+    "totalShows": 72,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-08T12:06:17+00:00",
+    "error": false,
+    "totalShows": 72,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-08T12:19:50+00:00",
+    "error": false,
+    "totalShows": 72,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-08T20:47:19+00:00",
+    "error": false,
+    "totalShows": 72,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-09T16:10:15+00:00",
+    "error": false,
+    "totalShows": 66,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-09T22:08:47+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-10T13:18:23+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-10T20:56:24+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-11T10:05:13+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-11T14:38:03+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-11T20:11:38+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-12T10:26:30+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-12T14:42:50+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-12T20:10:14+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": false,
+    "odyssey": false
+  },
+  {
+    "time": "2026-07-13T13:30:49+00:00",
+    "error": false,
+    "totalShows": 76,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-13T20:41:56+00:00",
+    "error": false,
+    "totalShows": 76,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-14T11:09:36+00:00",
+    "error": false,
+    "totalShows": 68,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-14T20:42:58+00:00",
+    "error": false,
+    "totalShows": 68,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-15T11:12:50+00:00",
+    "error": false,
+    "totalShows": 60,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-15T20:40:21+00:00",
+    "error": false,
+    "totalShows": 60,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-16T11:21:05+00:00",
+    "error": false,
+    "totalShows": 52,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-16T20:15:00+00:00",
+    "error": false,
+    "totalShows": 52,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-17T11:05:38+00:00",
+    "error": false,
+    "totalShows": 46,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-17T20:28:46+00:00",
+    "error": false,
+    "totalShows": 46,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-18T10:03:31+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-18T11:58:25+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-18T18:00:25+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-19T07:31:32+00:00",
+    "error": false,
+    "totalShows": 32,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-19T12:02:45+00:00",
+    "error": false,
+    "totalShows": 32,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-19T18:01:24+00:00",
+    "error": false,
+    "totalShows": 32,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-20T08:12:29+00:00",
+    "error": false,
+    "totalShows": 24,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-20T13:11:26+00:00",
+    "error": false,
+    "totalShows": 24,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-20T18:59:05+00:00",
+    "error": false,
+    "totalShows": 24,
+    "spiderman": false,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-21T07:37:35+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-21T12:41:07+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-21T18:19:37+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-22T07:38:15+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-22T12:43:48+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-22T18:14:33+00:00",
+    "error": false,
+    "totalShows": 58,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-23T07:39:10+00:00",
+    "error": false,
+    "totalShows": 52,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-23T12:44:22+00:00",
+    "error": false,
+    "totalShows": 52,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-23T18:17:33+00:00",
+    "error": false,
+    "totalShows": 52,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-24T07:37:01+00:00",
+    "error": false,
+    "totalShows": 46,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-24T12:23:50+00:00",
+    "error": false,
+    "totalShows": 46,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-24T18:23:46+00:00",
+    "error": false,
+    "totalShows": 46,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-25T07:23:01+00:00",
+    "error": false,
+    "totalShows": 39,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-25T12:06:10+00:00",
+    "error": false,
+    "totalShows": 39,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-25T18:01:21+00:00",
+    "error": false,
+    "totalShows": 39,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-26T07:40:51+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-26T12:09:58+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-26T18:06:17+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-27T08:38:40+00:00",
+    "error": false,
+    "totalShows": 23,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-27T13:42:09+00:00",
+    "error": false,
+    "totalShows": 23,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-27T18:27:24+00:00",
+    "error": false,
+    "totalShows": 23,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-28T07:42:53+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-28T12:57:55+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-28T18:20:14+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-29T07:48:20+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-29T13:04:58+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-29T18:11:32+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-30T07:38:15+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-30T12:49:18+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-30T18:22:59+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-31T07:56:39+00:00",
+    "error": false,
+    "totalShows": 47,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-31T13:02:01+00:00",
+    "error": false,
+    "totalShows": 47,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-07-31T18:24:46+00:00",
+    "error": false,
+    "totalShows": 47,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-01T07:32:29+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-01T12:06:34+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-01T18:04:21+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-02T07:36:11+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-02T12:09:22+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-02T18:04:42+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-03T08:36:22+00:00",
+    "error": false,
+    "totalShows": 26,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-03T13:44:53+00:00",
+    "error": false,
+    "totalShows": 74,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-03T18:53:13+00:00",
+    "error": false,
+    "totalShows": 74,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-04T07:44:12+00:00",
+    "error": false,
+    "totalShows": 69,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-04T13:05:56+00:00",
+    "error": false,
+    "totalShows": 69,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-04T18:42:44+00:00",
+    "error": false,
+    "totalShows": 69,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-05T07:44:59+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-05T12:59:04+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-05T18:39:48+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-06T07:44:37+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-06T13:00:32+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-07T06:11:53+00:00",
+    "error": false,
+    "totalShows": 51,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-07T11:50:35+00:00",
+    "error": false,
+    "totalShows": 51,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-07T17:53:15+00:00",
+    "error": false,
+    "totalShows": 51,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-08T05:48:17+00:00",
+    "error": false,
+    "totalShows": 44,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-08T11:35:36+00:00",
+    "error": false,
+    "totalShows": 44,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-08T17:37:14+00:00",
+    "error": false,
+    "totalShows": 44,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-09T05:51:47+00:00",
+    "error": false,
+    "totalShows": 35,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-09T11:36:34+00:00",
+    "error": false,
+    "totalShows": 35,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-09T17:37:31+00:00",
+    "error": false,
+    "totalShows": 35,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-10T06:15:40+00:00",
+    "error": false,
+    "totalShows": 26,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-10T11:53:46+00:00",
+    "error": false,
+    "totalShows": 26,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-10T17:54:47+00:00",
+    "error": false,
+    "totalShows": 26,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-11T05:57:23+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-11T11:50:00+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-11T18:00:08+00:00",
+    "error": false,
+    "totalShows": 63,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-12T06:20:35+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-12T11:53:20+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-12T18:00:06+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-13T06:21:19+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-13T11:54:07+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-13T18:00:24+00:00",
+    "error": false,
+    "totalShows": 53,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-14T06:20:07+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-14T11:51:15+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-14T17:56:22+00:00",
+    "error": false,
+    "totalShows": 57,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-15T05:31:34+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-15T11:26:40+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-15T17:26:40+00:00",
+    "error": false,
+    "totalShows": 50,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-16T05:34:38+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-16T11:26:34+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-16T17:25:51+00:00",
+    "error": false,
+    "totalShows": 41,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-17T05:40:20+00:00",
+    "error": false,
+    "totalShows": 32,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-17T11:32:48+00:00",
+    "error": false,
+    "totalShows": 69,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-17T17:33:34+00:00",
+    "error": false,
+    "totalShows": 69,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-18T05:35:54+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-18T11:32:05+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-18T17:34:02+00:00",
+    "error": false,
+    "totalShows": 64,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-19T05:37:19+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-19T11:32:20+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-19T17:32:46+00:00",
+    "error": false,
+    "totalShows": 59,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-20T05:37:26+00:00",
+    "error": false,
+    "totalShows": 54,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-20T11:33:57+00:00",
+    "error": false,
+    "totalShows": 54,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-20T17:36:31+00:00",
+    "error": false,
+    "totalShows": 54,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-21T05:38:50+00:00",
+    "error": false,
+    "totalShows": 48,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-21T11:32:39+00:00",
+    "error": false,
+    "totalShows": 48,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-21T17:35:58+00:00",
+    "error": false,
+    "totalShows": 48,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-22T05:33:45+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-22T11:26:52+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-22T17:27:06+00:00",
+    "error": false,
+    "totalShows": 40,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-23T05:35:47+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-23T11:27:21+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-23T17:26:16+00:00",
+    "error": false,
+    "totalShows": 31,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-24T05:44:41+00:00",
+    "error": false,
+    "totalShows": 22,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-24T11:35:54+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-24T17:36:36+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-25T05:37:59+00:00",
+    "error": false,
+    "totalShows": 65,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-25T11:34:50+00:00",
+    "error": false,
+    "totalShows": 66,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-25T17:37:10+00:00",
+    "error": false,
+    "totalShows": 66,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-26T05:40:39+00:00",
+    "error": false,
+    "totalShows": 61,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-26T11:36:18+00:00",
+    "error": false,
+    "totalShows": 61,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-26T19:11:03+00:00",
+    "error": false,
+    "totalShows": 61,
+    "spiderman": true,
+    "odyssey": true
+  },
+  {
+    "time": "2026-08-27T16:20:12+00:00",
+    "error": false,
+    "totalShows": 56,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-28T01:24:29+00:00",
+    "error": false,
+    "totalShows": 51,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-28T17:18:31+00:00",
+    "error": false,
+    "totalShows": 51,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-29T11:33:22+00:00",
+    "error": false,
+    "totalShows": 43,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-29T19:39:02+00:00",
+    "error": false,
+    "totalShows": 43,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-30T10:25:46+00:00",
+    "error": false,
+    "totalShows": 34,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-30T15:17:37+00:00",
+    "error": false,
+    "totalShows": 34,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-30T19:42:41+00:00",
+    "error": false,
+    "totalShows": 34,
+    "spiderman": true,
+    "odyssey": false
+  },
+  {
+    "time": "2026-08-31T05:41:45+00:00",
+    "error": false,
+    "totalShows": 26,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-08-31T05:42:13+00:00",
+    "error": false,
+    "totalShows": 26,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-08-31T11:31:01+00:00",
+    "error": false,
+    "totalShows": 26,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-08-31T21:51:13+00:00",
+    "error": false,
+    "totalShows": 88,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-01T09:54:48+00:00",
+    "error": false,
+    "totalShows": 83,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-01T15:26:35+00:00",
+    "error": false,
+    "totalShows": 83,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-01T19:49:28+00:00",
+    "error": false,
+    "totalShows": 83,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-02T09:26:03+00:00",
+    "error": false,
+    "totalShows": 79,
+    "endgame_encore": false,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-02T15:02:19+00:00",
+    "error": false,
+    "totalShows": 85,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-02T19:40:37+00:00",
+    "error": false,
+    "totalShows": 85,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-03T09:36:00+00:00",
+    "error": false,
+    "totalShows": 80,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-03T14:56:21+00:00",
+    "error": false,
+    "totalShows": 80,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-03T19:42:34+00:00",
+    "error": false,
+    "totalShows": 80,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-04T09:28:23+00:00",
+    "error": false,
+    "totalShows": 74,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-04T14:53:17+00:00",
+    "error": false,
+    "totalShows": 74,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-04T19:22:50+00:00",
+    "error": false,
+    "totalShows": 74,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-05T08:56:01+00:00",
+    "error": false,
+    "totalShows": 66,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-05T13:48:49+00:00",
+    "error": false,
+    "totalShows": 66,
+    "endgame_encore": true,
+    "doomsday": false
+  },
+  {
+    "time": "2026-09-05T18:56:49+00:00",
+    "error": false,
+    "totalShows": 66,
+    "endgame_encore": true,
+    "doomsday": false
+  }
+]
