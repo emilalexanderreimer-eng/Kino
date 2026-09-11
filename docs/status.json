@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-09-10T19:31:08+00:00",
+  "lastCheck": "2026-09-11T09:29:52+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 73,
+  "totalShows": 67,
   "movies": {
     "endgame_encore": {
       "label": "Avengers: Endgame Encore",
