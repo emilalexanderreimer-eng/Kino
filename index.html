@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vorverkauf-Monitor · Helmstedter Kinos</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --green: #3fb950;
+    --green-bg: rgba(63, 185, 80, 0.12);
+    --amber: #d29922;
+    --amber-bg: rgba(210, 153, 34, 0.12);
+    --red: #f85149;
+    --accent: #58a6ff;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f8fa;
+      --card: #ffffff;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --muted: #656d76;
+      --green: #1a7f37;
+      --green-bg: #dafbe1;
+      --amber: #9a6700;
+      --amber-bg: #fff8c5;
+      --red: #cf222e;
+      --accent: #0969da;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    padding: 2rem 1rem 4rem;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  header { margin-bottom: 2rem; text-align: center; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.35rem; }
+  .subtitle { color: var(--muted); font-size: 0.95rem; }
+  .subtitle a { color: var(--accent); text-decoration: none; }
+  .subtitle a:hover { text-decoration: underline; }
+
+  .cards { display: grid; gap: 1rem; margin-bottom: 1.5rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+  .movie-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .movie-title { font-size: 1.15rem; font-weight: 600; }
+  .badge {
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge.yes { background: var(--green-bg); color: var(--green); }
+  .badge.no  { background: var(--amber-bg); color: var(--amber); }
+  .detected { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
+
+  .shows { margin-top: 1rem; border-top: 1px solid var(--border); padding-top: 0.75rem; }
+  .shows-label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.5rem; }
+  .show-row {
+    display: flex; justify-content: space-between; gap: 1rem;
+    padding: 0.3rem 0; font-size: 0.92rem;
+    border-bottom: 1px dashed var(--border);
+  }
+  .show-row:last-child { border-bottom: none; }
+  .show-cinema { color: var(--muted); }
+
+  .meta {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: 0.4rem 2rem;
+  }
+  .meta strong { color: var(--text); font-weight: 600; }
+  .error-banner {
+    background: rgba(248, 81, 73, 0.12);
+    border: 1px solid var(--red);
+    color: var(--red);
+    border-radius: 12px;
+    padding: 0.8rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.92rem;
+  }
+  details { margin-top: 1.5rem; }
+  summary { cursor: pointer; color: var(--muted); font-size: 0.9rem; }
+  .history-list { margin-top: 0.75rem; font-size: 0.85rem; color: var(--muted); }
+  .history-row { display: flex; gap: 1rem; padding: 0.2rem 0; }
+  .dot { display: inline-block; width: 0.6em; height: 0.6em; border-radius: 50%; margin-right: 0.35em; }
+  .dot.ok { background: var(--green); }
+  .dot.none { background: var(--amber); }
+  .dot.err { background: var(--red); }
+  footer { text-align: center; margin-top: 2.5rem; color: var(--muted); font-size: 0.82rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>🎬 Vorverkauf-Monitor</h1>
+    <div class="subtitle">
+      Beobachtet die <a href="https://www.helmstedterkinos.com/programm-01.php" target="_blank" rel="noopener">Helmstedter Kinos</a>
+      (Roxy Lichtspiele &amp; Camera am Holzberg) – 3&times; täglich automatisch geprüft
+    </div>
+  </header>
+
+  <div id="error"></div>
+  <div class="cards" id="cards">
+    <div class="card"><em>Lade Status …</em></div>
+  </div>
+  <div class="meta" id="meta"></div>
+
+  <details id="history-details" hidden>
+    <summary>Prüfverlauf anzeigen</summary>
+    <div class="history-list" id="history"></div>
+  </details>
+
+  <footer>
+    Datenquelle: kinoheld.de (Ticketsystem der Helmstedter Kinos) ·
+    <a href="https://www.helmstedterkinos.com/programm-01.php" target="_blank" rel="noopener">Zum Kinoprogramm</a>
+  </footer>
+</main>
+
+<script>
+const fmtDateTime = ts => new Date(ts * 1000).toLocaleString('de-DE', {
+  weekday: 'short', day: '2-digit', month: '2-digit', year: 'numeric',
+  hour: '2-digit', minute: '2-digit'
+}) + ' Uhr';
+
+const fmtIso = iso => new Date(iso).toLocaleString('de-DE', {
+  day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+}) + ' Uhr';
+
+async function load() {
+  let status;
+  try {
+    const resp = await fetch('status.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    status = await resp.json();
+  } catch (e) {
+    document.getElementById('cards').innerHTML = '';
+    document.getElementById('error').innerHTML =
+      '<div class="error-banner">Status konnte nicht geladen werden (' + e.message +
+      '). Der erste Prüflauf hat evtl. noch nicht stattgefunden.</div>';
+    return;
+  }
+
+  if (status.error) {
+    document.getElementById('error').innerHTML =
+      '<div class="error-banner">⚠️ Der letzte Prüflauf hatte einen Fehler – angezeigt wird der letzte bekannte Stand.</div>';
+  }
+
+  const cards = Object.values(status.movies).map(m => {
+    const badge = m.found
+      ? '<span class="badge yes">✅ Vorverkauf gestartet</span>'
+      : '<span class="badge no">⏳ Noch nicht im Vorverkauf</span>';
+    const detected = m.found && m.firstDetected
+      ? '<div class="detected">Erstmals entdeckt: ' + fmtIso(m.firstDetected) + '</div>' : '';
+    let shows = '';
+    if (m.shows && m.shows.length) {
+      shows = '<div class="shows"><div class="shows-label">Buchbare Vorstellungen (' + m.shows.length + ')</div>' +
+        m.shows.map(s =>
+          '<div class="show-row"><span>' + fmtDateTime(s.timestamp) + '</span>' +
+          '<span class="show-cinema">' + s.cinema + '</span></div>'
+        ).join('') + '</div>';
+    }
+    return '<div class="card"><div class="movie-head">' +
+      '<span class="movie-title">' + m.label + '</span>' + badge +
+      '</div>' + detected + shows + '</div>';
+  }).join('');
+  document.getElementById('cards').innerHTML = cards;
+
+  document.getElementById('meta').innerHTML =
+    '<span>Letzte Prüfung: <strong>' + fmtIso(status.lastCheck) + '</strong></span>' +
+    '<span>Gefundene Vorstellungen gesamt: <strong>' + status.totalShows + '</strong></span>' +
+    '<span>Kinos: <strong>' + status.cinemas.join(', ') + '</strong></span>';
+
+  try {
+    const hist = await (await fetch('history.json?t=' + Date.now())).json();
+    if (Array.isArray(hist) && hist.length) {
+      document.getElementById('history-details').hidden = false;
+      document.getElementById('history').innerHTML = hist.slice().reverse().slice(0, 60).map(h => {
+        const cls = h.error ? 'err' : (h.spiderman || h.odyssey ? 'ok' : 'none');
+        const txt = h.error ? 'Fehler beim Abruf'
+          : (h.spiderman || h.odyssey ? 'Treffer!' : 'kein Vorverkauf (' + h.totalShows + ' Vorstellungen geprüft)');
+        return '<div class="history-row"><span><span class="dot ' + cls + '"></span>' +
+          fmtIso(h.time) + '</span><span>' + txt + '</span></div>';
+      }).join('');
+    }
+  } catch (e) { /* Verlauf optional */ }
+}
+load();
+</script>
+</body>
+</html>
