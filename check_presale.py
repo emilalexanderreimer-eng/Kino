@@ -37,20 +37,11 @@ def normalize(title: str) -> str:
     return " ".join(t.split())
 
 
-def match_endgame_encore(t: str) -> bool:
-    return "avengers" in t and "endgame" in t
-
-
 def match_doomsday(t: str) -> bool:
     return "avengers" in t and "doomsday" in t
 
 
 MOVIES = [
-    {
-        "key": "endgame_encore",
-        "label": "Avengers: Endgame Encore",
-        "matchers": [match_endgame_encore],
-    },
     {
         "key": "doomsday",
         "label": "Avengers: Doomsday",

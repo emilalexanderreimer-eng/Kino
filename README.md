@@ -4,7 +4,6 @@
 Vorverkauf für diese Filme in den Helmstedter Kinos (Roxy Lichtspiele & Camera am
 Holzberg) begonnen hat:
 
-- **Avengers: Endgame Encore**
 - **Avengers: Doomsday**
 
 ## Wie es funktioniert
