@@ -1588,5 +1588,11 @@
     "error": false,
     "totalShows": 64,
     "doomsday": false
+  },
+  {
+    "time": "2026-09-25T10:06:48+00:00",
+    "error": false,
+    "totalShows": 59,
+    "doomsday": false
   }
 ]
