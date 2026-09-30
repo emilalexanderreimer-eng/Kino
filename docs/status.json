@@ -1,11 +1,11 @@
 {
-  "lastCheck": "2026-09-30T11:03:14+00:00",
+  "lastCheck": "2026-09-30T21:21:35+00:00",
   "error": null,
   "cinemas": [
     "Roxy Lichtspiele",
     "Camera am Holzberg"
   ],
-  "totalShows": 68,
+  "totalShows": 69,
   "movies": {
     "doomsday": {
       "label": "Avengers: Doomsday",
