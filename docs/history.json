@@ -1726,5 +1726,11 @@
     "error": false,
     "totalShows": 48,
     "doomsday": false
+  },
+  {
+    "time": "2026-10-04T11:02:48+00:00",
+    "error": false,
+    "totalShows": 39,
+    "doomsday": false
   }
 ]
