@@ -1,0 +1,98 @@
+{
+  "lastCheck": "2026-11-28T14:00:49+00:00",
+  "error": null,
+  "cinemas": [
+    "Roxy Lichtspiele",
+    "Camera am Holzberg"
+  ],
+  "totalShows": 54,
+  "movies": {
+    "doomsday": {
+      "label": "Avengers: Doomsday",
+      "found": true,
+      "firstDetected": "2026-11-19T14:15:28+00:00",
+      "shows": [
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797433200
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797446700
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797519600
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797533100
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797606000
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797620400
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797692400
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797706800
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797778800
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797793200
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797865200
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797878700
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797951600
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1797965100
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1798038000
+        },
+        {
+          "title": "Avengers: Doomsday",
+          "cinema": "Roxy Lichtspiele",
+          "timestamp": 1798051500
+        }
+      ]
+    }
+  }
+}
